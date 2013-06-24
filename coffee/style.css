@@ -1,0 +1,35 @@
+.fit {
+  max-width: 99%;
+  max-height: 99%;
+}
+
+h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+ul {	background-color: #320D0D;
+				
+
+                list-style: none;
+                border: 1px solid black;
+                height: 40px;
+                width: 981px;
+                text-decoration: none;
+            }
+li {	     	
+				font-family:geneva ;
+				color: blue;
+                float: left;
+                margin-right: 30px;
+                height: 40px;
+                width: 30px;
+            }
