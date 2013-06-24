@@ -1,35 +1,92 @@
-.fit {
-  max-width: 99%;
-  max-height: 99%;
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background: #732D14;
+}
+
+#container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.clear {
+  clear: both;
+}
+
+header {
+  background-image: url('./images/beans.jpg');
+  background-repeat: no-repeat;
+  height: 280px;
+}
+
+nav {
+  background: #321409;
+}
+
+nav h1 {
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  clear: both;
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 260px;
+}
+
+nav ul li {
+  float: left;
+  color: #fff;
+  margin-left: 10px;
 }
 
 h1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#logo img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  margin: 0;
 }
 
 
-ul {	background-color: #320D0D;
-				
+.main article 
+{
+    text-align: center;
+    width: 50%;
+    padding: 0 5% 0 10%;
+    float:left;
+}
 
-                list-style: none;
-                border: 1px solid black;
-                height: 40px;
-                width: 981px;
-                text-decoration: none;
-            }
-li {	     	
-				font-family:geneva ;
-				color: blue;
-                float: left;
-                margin-right: 30px;
-                height: 40px;
-                width: 30px;
-            }
+
+.main article h3 { color: brown;
+
+}
+
+
+
+footer { background: #321409;
+  padding: 20px 0;
+  margin:20;
+  color: white;
+  padding:25px 50px 75px 100px;
+
+  }
+
+
+
+
+footer p {margin:10px 10px 10px 10px;
+
+}
+
