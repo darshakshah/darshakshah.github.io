@@ -1,0 +1,61 @@
+
+
+body{ background: #F2F2F2;}
+
+
+.main {
+	width:700px;
+}
+
+.blogtitle{
+	
+	width:20%;
+	position: fixed;
+	float: left;
+	list-style: none;
+ 	font-family: 'Lobster', cursive;
+
+}
+
+.posts{ 
+	position: relative;
+	width:60%;
+	float: right;
+	text-align:justify;
+
+
+}
+
+
+
+nav {list-style: none;
+text-decoration: none;
+color: green;
+font-family: Arial, Verdana, sans-serif;
+
+
+}
+
+nav ul {
+  
+  clear: both;
+  margin: auto;
+  padding: 0 350 10px 500px;
+  text-decoration: none;
+  width: 260px;
+}
+
+nav ul li {
+  float: left;
+  color: #fff;
+  margin-left: 10px;
+}
+
+a { text-decoration: none;}
+
+/*.left ul {
+	float: left;
+	width: 90%;
+
+}
+

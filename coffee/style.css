@@ -1,6 +1,7 @@
 a {
   color: white;
   text-decoration: none;
+
 }
 
 a:hover {
@@ -8,7 +9,7 @@ a:hover {
 }
 
 body {
-  background: #732D14;
+  background: rgba(28,9 ,1,0.8);
 }
 
 #container {
@@ -16,6 +17,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   background: white;
+  
 }
 
 .text-center {
@@ -33,8 +35,11 @@ header {
   height: 280px;
 }
 
-nav {
-  background: #321409;
+  nav {
+
+background: rgba(28,9 ,1,0.8);
+padding: 0 0 8px 0;
+margin-top: 30px;
 }
 
 nav h1 {
@@ -46,13 +51,25 @@ nav ul {
   clear: both;
   margin: 0 auto;
   padding: 10px 0;
-  width: 260px;
-}
+/*  width: 260px;
+*/}
+
+
+ 
+
+
+
+
+
+
+
 
 nav ul li {
+  padding: 0 10px;
+  display: inline-block;
   float: left;
   color: #fff;
-  margin-left: 10px;
+  margin-left: 130px;
 }
 
 h1 {
@@ -63,11 +80,10 @@ h1 {
 .main article 
 {
     text-align: center;
-    width: 50%;
-    padding: 0 5% 0 10%;
+    width: 40%;
+    padding: 0 5% 0 5%;
     float:left;
 }
-
 
 .main article h3 { color: brown;
 
@@ -79,7 +95,7 @@ footer { background: #321409;
   padding: 20px 0;
   margin:20;
   color: white;
-  padding:25px 50px 75px 100px;
+  padding:5px 50px 10px 100px;
 
   }
 
@@ -87,6 +103,8 @@ footer { background: #321409;
 
 
 footer p {margin:10px 10px 10px 10px;
+  padding: 15px 0px 5px 0;
+  line-height: 0px;
 
 }
 
