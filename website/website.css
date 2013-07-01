@@ -1,0 +1,66 @@
+
+
+body{
+	/*background-image: url(images/background.jpg);
+	background-repeat: no-repeat;*/
+	  background: url(images/mt_background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.background
+{
+min-width: 1200px;
+position: fixed;
+height: 100%;
+min-height: 600px;
+width: 100%;
+left: 0px;
+top: 0px;
+}
+
+/* NAv Bar */
+
+.nav{
+	position:relative;
+	float:left;
+	margin-top:25px;
+	margin-bottom:25px;
+	margin-left:10px;
+	height:650px;
+	width:200px;
+	background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, .5);
+	/*border:0px solid*/
+	border-radius:20px;
+	
+}
+
+
+.navstuff{
+	position:absolute;
+	left:25px;
+	width:200px;
+	list-style-type: none;
+}
+
+.linky{
+	line-height:30px;
+	opacity:1;
+	font-family: Lucida Grande;
+}
+
+a:link {
+	color: white; 
+	text-decoration: none; }
+a:active {
+	color: #white; 
+	text-decoration: none; }
+a:visited {
+	color: white; 
+	text-dexcoration: none; }
+a:hover {
+	color: #66CCFF; 
+	text-decoration: none; }
