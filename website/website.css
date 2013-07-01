@@ -21,19 +21,50 @@ left: 0px;
 top: 0px;
 }
 
+
+header {
+height: 300px;
+
+
+}
+
+header ul {
+	
+list-style: none;
+padding-left: 350px;
+margin-top: -10px;
+font-size: 30px;
+font-family: Didot;}
+
+header ul li {display: inline;
+padding-left: 80px;
+padding-right: 100px;
+
+}
+
+
+h1 { font-weight: normal;
+font-style: normal;
+font-size: 100;
+float: right;
+margin: 10px 200px 0 100px;
+color: 	white;
+font-family: Didot;
+
+}
+
 /* NAv Bar */
 
 .nav{
 	position:relative;
 	float:left;
-	margin-top:25px;
+	margin-top:-275px;
 	margin-bottom:25px;
 	margin-left:10px;
 	height:650px;
 	width:200px;
 	background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, .5);
-	/*border:0px solid*/
 	border-radius:20px;
 	
 }
@@ -50,6 +81,19 @@ top: 0px;
 	line-height:30px;
 	opacity:1;
 	font-family: Lucida Grande;
+}
+
+
+.social{
+
+	margin: 0 -10px;
+}
+
+.social  img {
+	padding-right: 20px;
+	
+	
+
 }
 
 a:link {
